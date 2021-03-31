@@ -182,7 +182,7 @@ header {
 
 .logo,
 .logo-black {
-    height: 150 px;
+    height:  120px;
     width: auto;
     float: left; 
     margin-top: 20px;
@@ -323,7 +323,7 @@ header {
 
 
 .section-farmers h2 {
-    padding-top: 50%;
+    padding-top: 40%;
 }
 
 .section-farmers {
@@ -331,13 +331,36 @@ header {
 
 }
 
+.section-farmers img {
+    width: 450px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.farmers_text{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+
+.farmers_text_2 {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 5%;
+} 
+
 .farm-owners {
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    border: 2px solid #e67e22;
+    width: 450px;
+    height: auto;
+    /*border: 2px solid #e67e22;*/
+    float: left;
+    margin-right: 40px;
+    text-align: justify;
      
 }
 
