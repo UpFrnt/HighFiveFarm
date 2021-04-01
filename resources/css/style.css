@@ -527,10 +527,24 @@ cite img {
     font-style: italic;
 }
 
+
+/*-----------------------------------------*/
+/*Free Vegetable Fund*/
+/*-----------------------------------------*/
+.section-free-vegetable-fund{
+    text-align:center;
+}
+
+article{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 /*-----------------------------------------*/
 /*CONTACT FORM*/
 /*-----------------------------------------*/
-
+.section-form{
+    background-color: #ededed;
+}
 .contact-form {
     width: 60%;
     margin: 0 auto;
