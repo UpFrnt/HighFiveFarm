@@ -73,7 +73,7 @@
         height: 100vh;
         margin: 0;
         margin-left: -2%;
-        background-color: rgba(230, 126, 34, 0.92);
+        /*background-color: rgba(230, 126, 34, 0.92);*/
         text-align: center;
         padding-top: 20vh;
     }
