@@ -323,8 +323,8 @@ header {
 
 
 
-.section-farmers h2 {
-    padding-top: 40%;
+.section-farmers h2{
+    padding-top: 70%;
 }
 
 .section-farmers {
@@ -532,6 +532,10 @@ cite img {
 /*-----------------------------------------*/
 /*Free Vegetable Fund*/
 /*-----------------------------------------*/
+.section-free-vegetable-fund h2{
+    padding-top: 50%;
+}
+
 .section-free-vegetable-fund{
     text-align:center;
 }
