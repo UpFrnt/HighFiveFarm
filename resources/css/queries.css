@@ -69,19 +69,19 @@
         float: none;
         position: absolute;
         z-index: 8888;
-        width: 100%;
+        width: 140%;
         height: 100vh;
         margin: 0;
         margin-left: -2%;
-        /*background-color: rgba(230, 126, 34, 0.92);*/
         text-align: center;
-        padding-top: 20vh;
+        padding-top: 10vh;
+        margin-bottom: initial;
     }
 
     .main-nav li {
         display: block;
         margin-left: 0;
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .main-nav li a:link,
@@ -93,20 +93,24 @@
     }
 
     
-    .sticky .main-nav { margin-top: 0; }
+    .sticky .main-nav { 
+        margin-top: 0;
+    }
     
     
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
-        padding: 10px 0;
-        color: #fff;
+        padding: 6px 0;
+        color: black;
+        background-color: white;
+        
     }
     
     
     
     .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-    .sticky .mobile-nav-icon i.ion-close-round { color: #fff; }
+    .sticky .mobile-nav-icon i { color:black; }
+    .sticky .mobile-nav-icon i.ion-close-round { color:black; }
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     
@@ -128,7 +132,7 @@
     text-align: center;
 }
  
-}
+
 
 
 
@@ -136,7 +140,7 @@
 /* Small Phones: from 0 to 480 px */
 
 @media only screen and (max-width: 480px) {
-    .section { padding: 25px 0;}
+    section { padding: 25px 0;}
     .contact-form { width: 100%;}
     
     
