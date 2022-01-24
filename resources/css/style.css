@@ -324,7 +324,7 @@ header {
 
 
 .section-farmers h2{
-    padding-top: 70%;
+    padding-top: 50%;
 }
 
 .section-farmers {
@@ -338,20 +338,21 @@ header {
     padding-left: 20px;
 }
 
-.farmers_text{
+.farmers-text{
     text-align: justify;
     margin-right: 10%;
     margin-left: 5%;
+    text-align: justify;
     
 }
 
-.farmers_text_2 {
-    text-align: justify;
+.farmers-text-2 {
+    
     margin-right: 10%;
     margin-left: 5%;
 } 
 
-.farm-owners {
+.farm-owners img{
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -362,7 +363,6 @@ header {
     float: left;
     margin-right: 40px;
     text-align: justify;
-     
 }
 
 .farmers-box {
@@ -528,7 +528,10 @@ cite img {
     font-style: italic;
 }
 
-
+.section-csa {
+    padding-top: 5%;
+    padding-bottom: 2%;;
+}
 /*-----------------------------------------*/
 /*Free Vegetable Fund*/
 /*-----------------------------------------*/
@@ -547,9 +550,18 @@ article{
 /*-----------------------------------------*/
 /*CONTACT FORM*/
 /*-----------------------------------------*/
-.section-form{
-    background-color: #ededed;
+
+
+
+
+.section-form {
+    background-color: #f4f4f4;
+    text-align: center;
+    
 }
+
+
+/*
 .contact-form {
     width: 60%;
     margin: 0 auto;
@@ -579,7 +591,7 @@ input[type=checkbox] {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+} 
 
 /*-----------------------------------------*/
 /*FOOTER*/
