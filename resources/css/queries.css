@@ -72,12 +72,13 @@
         text-align: center;
         padding-top: 10vh;
         margin-bottom: initial;
+        
     }
 
     .main-nav li {
         display: block;
         margin-left: 0;
-        font-size: 100%;
+        font-size: 70%;
     }
 
     .main-nav li a:link,
@@ -116,12 +117,13 @@
     }
     
     header {
-    background: url('img/hero_alt.jpg') no-repeat center top;
+    background: url('img/hero_alt.jpg') no-repeat auto top;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/hero_alt.jpg');}
     
      .section-testimonials {
-    background: url('img/back-customers2.jpg') no-repeat center top;
+    background: url('img/back-customers2.jpg') no-repeat auto top;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/back-customers2.jpg');}
+    
 }
 
 .farm-owners {
@@ -129,12 +131,10 @@
 }
  
 .farm-owners img {
-    text-align: center;
+    text-align: left;
+    width: 190px;
+    
 }
-
-
-}
-
 
 
 
@@ -161,4 +161,10 @@
 
 .farm-owners {
     text-align: center;
+}
+
+.farm-owners img {
+    text-align: left;
+    width: 380px;
+    
 }
