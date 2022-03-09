@@ -6,8 +6,17 @@
         padding: 0 2%;
     }
 
-    .row { padding: 0 2%; }
-}
+    .row { 
+        padding: 0 2%; 
+    }
+
+    .row li {
+        font-size: 18px;
+    }
+
+
+
+
     
 
 /*Small tablet to big tablet: from 768px to 1023px */
@@ -38,6 +47,10 @@
     .plan-price { font-size: 250%; }
     
     .contact-form { width: 80%; }
+}
+
+.row li {
+    font-size: 17px;
 }
 
 /* Small Phones to Small Tablets: from 481px to 767 px */
@@ -136,6 +149,10 @@
     
 }
 
+.row li {
+    font-size: 16px;
+}
+
 
 
 /* Small Phones: from 0 to 480 px */
@@ -165,6 +182,9 @@
 
 .farm-owners img {
     text-align: left;
-    width: 30%;
-    
+    width: 30%;   
+}
+
+.row li {
+    font-size: 15px;
 }
